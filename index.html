@@ -28,7 +28,7 @@
 <script defer src="https://unpkg.com/alpinejs@3.7.0/dist/cdn.min.js"></script>
 <script defer src="https://unpkg.com/focus-visible@5.2.0/dist/focus-visible.min.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!--    <script defer src='https://cdn.tailwindcss.com'></script>-->
+    <script src='https://cdn.tailwindcss.com'></script>
 
     <style>
             :root {
@@ -51,7 +51,6 @@
 
 
     </style>
-
     <script type="text/javascript" defer>
                     function send_sms(slug){
                         const sendButton = document.getElementById('sendButton')
@@ -290,7 +289,7 @@
     x-init="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
     @scroll.window="window.pageYOffset >= 50 ? scrolledFromTop = true : scrolledFromTop = false"
     :class="{'h-32': !scrolledFromTop, 'h-16': scrolledFromTop}"
-    class="fixed inset-x-0 top-0 z-20 bg-orange-600 sm:h-16 transition-all duration-200"
+    class="fixed hidden inset-x-0 top-0 z-20 bg-orange-600 sm:h-16 transition-all duration-200"
 >
     <div
         :class="{'h-32': !scrolledFromTop, 'h-16': scrolledFromTop}"
@@ -1993,8 +1992,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/6PTYZQYQKP6A283L8SASSA5T20IROZ5NVOQLKNZS.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/6PTYZQYQKP6A283L8SASSA5T20IROZ5NVOQLKNZS.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2010,8 +2009,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/8F0OSBP1D2OEJPJPVQ2STJJEJ2OK7J712C3MHETW.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/8F0OSBP1D2OEJPJPVQ2STJJEJ2OK7J712C3MHETW.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2027,8 +2026,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/13FMV25KAMP3P1CGWYF6RKZWYH3USRQMBOSVQT7L.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/13FMV25KAMP3P1CGWYF6RKZWYH3USRQMBOSVQT7L.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2044,8 +2043,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/VGOP480LBX7MMCKODEKCDY412N8AWQ4BXE1QRSOM.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/VGOP480LBX7MMCKODEKCDY412N8AWQ4BXE1QRSOM.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2061,8 +2060,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/DZDCROVERSR5QA3HB175W061DNZY9I8AN1OHFOQU.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/DZDCROVERSR5QA3HB175W061DNZY9I8AN1OHFOQU.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2078,8 +2077,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/Y1FOWCMF4RFBCVJ6VW8CNRSN1DR23W0RWVMLB0L0.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/Y1FOWCMF4RFBCVJ6VW8CNRSN1DR23W0RWVMLB0L0.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2095,8 +2094,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/R2U1E7WNHPNY2ZI7H0SIQAUWL5TAFJW98RSTC2K5.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/R2U1E7WNHPNY2ZI7H0SIQAUWL5TAFJW98RSTC2K5.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2112,8 +2111,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/c8c0b753-d1c6-4575-9f82-341adccc9bb5.png" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/c8c0b753-d1c6-4575-9f82-341adccc9bb5.png" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2129,8 +2128,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/3OJZAFCCEP3KC7XYQ6TKW7JK7SIG61NFFVU10WMH.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/3OJZAFCCEP3KC7XYQ6TKW7JK7SIG61NFFVU10WMH.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2146,8 +2145,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/0MMRS5UE913WZYLP76G0IF7S65YQ8CHLNFIA8DCK.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/0MMRS5UE913WZYLP76G0IF7S65YQ8CHLNFIA8DCK.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2163,8 +2162,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/5MIL3WJSFCNH4LCEMI9AG82918WAI341K6TR8GZF.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/5MIL3WJSFCNH4LCEMI9AG82918WAI341K6TR8GZF.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2180,8 +2179,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/EQGBW4QBGTLXL3FKO3SES8X6V0SOU1JPZ5LWZ3L4.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/EQGBW4QBGTLXL3FKO3SES8X6V0SOU1JPZ5LWZ3L4.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2197,8 +2196,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/f8954253-5d74-45fe-ba75-d55c6f0f0e8c.png" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/f8954253-5d74-45fe-ba75-d55c6f0f0e8c.png" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2214,8 +2213,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/C0B1AX2GC4B5SYT2WSL0RCVTS455NK5B4OMS8C85.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/C0B1AX2GC4B5SYT2WSL0RCVTS455NK5B4OMS8C85.jpeg" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
@@ -2231,8 +2230,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 14; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                             
-                                <img class="object-cover rounded-lg shadow-lg" src="http://localhost:8000/api/get_optimise_photos/7184824b-df21-4e2a-9f72-6f64da091314.png" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/7184824b-df21-4e2a-9f72-6f64da091314.png" alt="Fencing for Caro Construction &amp; Remodeling in Houston, TX" loading="lazy"/>
                             
                         </div>
 
