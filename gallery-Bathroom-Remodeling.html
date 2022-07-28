@@ -1052,7 +1052,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 4,
+        amountOfImages: 5,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1074,7 +1074,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/418a770e-a3be-4df8-9558-0fc4240e696d.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0a73da78-fc71-4fce-b945-7c72b634ffdc.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                 
                             
                         </div>
@@ -1093,7 +1093,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7f9c5c40-70d5-43b0-bc79-f361c65c131a.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/418a770e-a3be-4df8-9558-0fc4240e696d.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                 
                             
                         </div>
@@ -1112,7 +1112,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0470762d-761b-44c3-8c8e-e38db0ac7fba.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/7f9c5c40-70d5-43b0-bc79-f361c65c131a.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                 
                             
                         </div>
@@ -1128,6 +1128,25 @@
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            
+                                
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0470762d-761b-44c3-8c8e-e38db0ac7fba.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
@@ -1189,26 +1208,33 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/418a770e-a3be-4df8-9558-0fc4240e696d.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/0a73da78-fc71-4fce-b945-7c72b634ffdc.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/7f9c5c40-70d5-43b0-bc79-f361c65c131a.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/418a770e-a3be-4df8-9558-0fc4240e696d.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/0470762d-761b-44c3-8c8e-e38db0ac7fba.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/7f9c5c40-70d5-43b0-bc79-f361c65c131a.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 3">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/0470762d-761b-44c3-8c8e-e38db0ac7fba.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 4">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/7628c323-4e3b-4c23-afab-8b0ec86a4636.png" alt="Bathroom Remodeling for Caro Construction &amp; Remodeling 2 in Gastonia, NC" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
